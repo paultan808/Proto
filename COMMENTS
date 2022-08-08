@@ -1,0 +1,9 @@
+Compile
+
+mvn compile
+
+And run
+
+mvn exec:java -Dexec.mainClass="gov.nyc.assessment.App"
+
+Project should be run from the root directory, as it will be looking for the "txnlog.dat" file (included).
